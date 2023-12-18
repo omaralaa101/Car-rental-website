@@ -208,3 +208,36 @@ font-weight: 500;
  font-weight: 500;
  margin: 1.4rem 0 0.5rem;   
 }
+.services-container{
+    display:grid ;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+    gap:1rem ;
+    margin-top: 2rem;
+}
+.services-container .box{
+   padding: 40px; 
+   border-radius: 1rem ;
+   box-shadow: 1px 4px 41px rgba(0, 0,0,0.1);
+   overflow:visible;
+}
+.services-container .box .box-img {
+width: 300px;
+height: 300px;
+
+
+ }
+ .services-container .box .box-img{
+    width:100px;
+    height: 100px;
+    border-radius: 1rem;
+    object-fit:fill;
+    object-position:center ;
+    
+ }
+.services-container .box p{
+    padding: 0 10px;
+    border: 1px solid var(--text-color);
+    width: 58px;
+    border-radius: 0.5rem;
+    margin: 1rem 0 1rem;
+}
